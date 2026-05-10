@@ -181,16 +181,6 @@ function setupIncrementalProjects() {
 function setupMapShowcase() {
   const maps = [
     {
-      title: "Paradise Valley Trail Run Routes",
-      cat: "Terrain / Route Mapping",
-      text: "A terrain-focused race route map showing 5K and 10K trail routes with elevation, route context, and supporting map elements.",
-      focus: "Route design, terrain, elevation profile",
-      tools: "ArcGIS Pro, cartographic layout",
-      img: "assets/images/maps/previews/paradise-valley-trail-run.jpg",
-      story: "maps/paradise-valley-trail-run.html",
-      alt: "Paradise Valley Trail Run route map preview"
-    },
-    {
       title: "Heathrow's Global Reach",
       cat: "Flowline Cartography",
       text: "A global aviation flow map showing Heathrow's international connections using a dark basemap, curved flowlines, and strong visual hierarchy.",
@@ -199,6 +189,36 @@ function setupMapShowcase() {
       img: "assets/images/maps/previews/heathrow-global-reach.jpg",
       story: "maps/heathrow-global-reach.html",
       alt: "Heathrow global reach flowline map preview"
+    },
+    {
+      title: "Calgary Park Accessibility and Social Deprivation",
+      cat: "Urban GIS / Accessibility",
+      text: "An urban GIS map exploring park accessibility and social deprivation patterns in Calgary, designed for planning and equity-focused interpretation.",
+      focus: "Accessibility, social deprivation, urban planning",
+      tools: "ArcGIS Pro, spatial analysis",
+      img: "assets/images/maps/previews/calgary-park-accessibility.jpg",
+      story: "maps/calgary-park-accessibility.html",
+      alt: "Calgary park accessibility map preview"
+    },
+    {
+      title: "Housing Cost in Calgary: DA vs CT",
+      cat: "Urban GIS / Census Mapping",
+      text: "A census-based comparison map showing housing costs at dissemination area and census tract scales, useful for explaining spatial aggregation and scale effects.",
+      focus: "Housing cost, census geography, DA vs CT comparison",
+      tools: "ArcGIS Pro, census mapping",
+      img: "assets/images/maps/previews/housing-cost-da-vs-ct.png",
+      story: "maps/housing-cost-da-vs-ct.html",
+      alt: "Housing cost map comparing dissemination areas and census tracts"
+    },
+    {
+      title: "Paradise Valley Trail Run Routes",
+      cat: "Terrain / Route Mapping",
+      text: "A terrain-focused race route map showing 5K and 10K trail routes with elevation, route context, and supporting map elements.",
+      focus: "Route design, terrain, elevation profile",
+      tools: "ArcGIS Pro, cartographic layout",
+      img: "assets/images/maps/previews/paradise-valley-trail-run.jpg",
+      story: "maps/paradise-valley-trail-run.html",
+      alt: "Paradise Valley Trail Run route map preview"
     },
     {
       title: "Flood Affected Settlements of Chiniot",
@@ -229,26 +249,6 @@ function setupMapShowcase() {
       img: "assets/images/maps/previews/red-carpet-community-overview.jpg",
       story: "maps/red-carpet-community-overview.html",
       alt: "Red Carpet community spatial overview map preview"
-    },
-    {
-      title: "Housing Cost in Calgary: DA vs CT",
-      cat: "Urban GIS / Census Mapping",
-      text: "A census-based comparison map showing housing costs at dissemination area and census tract scales, useful for explaining spatial aggregation and scale effects.",
-      focus: "Housing cost, census geography, DA vs CT comparison",
-      tools: "ArcGIS Pro, census mapping",
-      img: "assets/images/maps/previews/housing-cost-da-vs-ct.png",
-      story: "maps/housing-cost-da-vs-ct.html",
-      alt: "Housing cost map comparing dissemination areas and census tracts"
-    },
-    {
-      title: "Calgary Park Accessibility and Social Deprivation",
-      cat: "Urban GIS / Accessibility",
-      text: "An urban GIS map exploring park accessibility and social deprivation patterns in Calgary, designed for planning and equity-focused interpretation.",
-      focus: "Accessibility, social deprivation, urban planning",
-      tools: "ArcGIS Pro, spatial analysis",
-      img: "assets/images/maps/previews/calgary-park-accessibility.jpg",
-      story: "maps/calgary-park-accessibility.html",
-      alt: "Calgary park accessibility map preview"
     },
     {
       title: "Friends of Greens Street Tree Planting",

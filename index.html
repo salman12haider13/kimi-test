@@ -199,49 +199,100 @@
     </section>
 
     <!-- MAPS -->
+    <!-- MAPS -->
     <section class="section section-alt" id="maps">
       <div class="container">
         <div class="section-header center reveal">
           <span class="eyebrow">Cartography & Spatial Analysis</span>
-            <h2>Map-based analysis and cartographic projects</h2>
-            <p>
-              This section focuses on my map-based GIS work. These projects show how I use spatial analysis,
-              cartographic design, remote sensing, census data, and environmental or urban datasets to explain
-              patterns clearly. Each map story gives the context behind the final layout, including the purpose,
-              process, design choices, and main findings.
-            </p>
+          <h2>Map-based analysis and cartographic projects</h2>
+          <p>
+            This section focuses on my map-based GIS work. These projects show how I use spatial analysis,
+            cartographic design, remote sensing, census data, and environmental or urban datasets to explain
+            patterns clearly. Each map story gives the context behind the final layout, including the purpose,
+            process, design choices, and main findings.
+          </p>
         </div>
 
         <div class="map-showcase reveal">
           <div class="map-stage">
             <button class="map-nav prev" id="prevMap" type="button" aria-label="Previous map">←</button>
+
             <div class="map-preview">
-              <img id="mapShowcaseImage" src="assets/images/maps/previews/paradise-valley-trail-run.jpg" alt="Paradise Valley Trail Run route map preview">
+              <img
+                id="mapShowcaseImage"
+                src="assets/images/maps/previews/heathrow-global-reach.jpg"
+                alt="Heathrow global reach flowline map preview"
+              >
             </div>
+
             <div class="map-panel">
-              <span class="map-cat" id="mapShowcaseCategory">Terrain / Route Mapping</span>
-              <h3 id="mapShowcaseTitle">Paradise Valley Trail Run Routes</h3>
-              <p id="mapShowcaseText">A terrain-focused race route map showing 5K and 10K trail routes with elevation, route context, and supporting map elements.</p>
+              <span class="map-cat" id="mapShowcaseCategory">Flowline Cartography</span>
+              <h3 id="mapShowcaseTitle">Heathrow's Global Reach</h3>
+              <p id="mapShowcaseText">
+                A global aviation flow map showing Heathrow's international connections using a dark basemap,
+                curved flowlines, and strong visual hierarchy.
+              </p>
+
               <div class="map-meta-grid">
-                <div class="map-meta-item"><strong>Focus</strong><span id="mapShowcaseFocus">Route design, terrain, elevation profile</span></div>
-                <div class="map-meta-item"><strong>Tools</strong><span id="mapShowcaseTools">ArcGIS Pro, cartographic layout</span></div>
+                <div class="map-meta-item">
+                  <strong>Focus</strong>
+                  <span id="mapShowcaseFocus">Flowlines, global connections, visual hierarchy</span>
+                </div>
+
+                <div class="map-meta-item">
+                  <strong>Tools</strong>
+                  <span id="mapShowcaseTools">ArcGIS Pro, cartographic design</span>
+                </div>
               </div>
-              <a href="maps/paradise-valley-trail-run.html" class="btn btn-primary" id="mapShowcaseStory">View Map Story</a>
+
+              <a href="maps/heathrow-global-reach.html" class="btn btn-primary" id="mapShowcaseStory">
+                View Map Story
+              </a>
             </div>
+
             <button class="map-nav next" id="nextMap" type="button" aria-label="Next map">→</button>
           </div>
 
           <div class="map-thumbs">
-            <button class="map-thumb active" type="button" data-map-index="0"><span class="num">01</span>Trail Routes</button>
-            <button class="map-thumb" type="button" data-map-index="1"><span class="num">02</span>Heathrow</button>
-            <button class="map-thumb" type="button" data-map-index="2"><span class="num">03</span>Flood Chiniot</button>
-            <button class="map-thumb" type="button" data-map-index="3"><span class="num">04</span>Town of Olds</button>
-            <button class="map-thumb" type="button" data-map-index="4"><span class="num">05</span>Red Carpet</button>
-            <button class="map-thumb" type="button" data-map-index="5"><span class="num">06</span>Housing Cost</button>
-            <button class="map-thumb" type="button" data-map-index="6"><span class="num">07</span>Park Access</button>
-            <button class="map-thumb" type="button" data-map-index="7"><span class="num">08</span>Tree Canopy</button>
-            <button class="map-thumb" type="button" data-map-index="8"><span class="num">09</span>Stillbirths Asia</button>
-            <button class="map-thumb" type="button" data-map-index="9"><span class="num">10</span>PRHPS Pakistan</button>
+            <button class="map-thumb active" type="button" data-map-index="0">
+              <span class="num">01</span>Heathrow
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="1">
+              <span class="num">02</span>Park Access
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="2">
+              <span class="num">03</span>Housing Cost
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="3">
+              <span class="num">04</span>Trail Routes
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="4">
+              <span class="num">05</span>Flood Chiniot
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="5">
+              <span class="num">06</span>Town of Olds
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="6">
+              <span class="num">07</span>Red Carpet
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="7">
+              <span class="num">08</span>Tree Canopy
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="8">
+              <span class="num">09</span>Stillbirths Asia
+            </button>
+
+            <button class="map-thumb" type="button" data-map-index="9">
+              <span class="num">10</span>PRHPS Pakistan
+            </button>
           </div>
         </div>
       </div>
