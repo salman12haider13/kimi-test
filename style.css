@@ -510,8 +510,18 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .project-link:hover { gap: 10px; }
 
-.project-card.compact .project-media { display: none; }
-.project-card.hidden { display: none; }
+.project-card.compact .project-media { 
+  display: none; 
+}
+
+.project-card.hidden { 
+  display: none; 
+}
+
+.project-grid.expanded .project-card.hidden {
+  display: flex;
+}
+
 
 .toggle-wrap {
   display: flex;
@@ -972,6 +982,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .cert-content a:hover { color: var(--forest-dark); }
 
 .cert-item.hidden { display: none; }
+
+.cert-extra {
+  display: none;
+}
+
+.cert-list.show-all .cert-extra {
+  display: grid;
+}
 
 /* =========================================================
    CONTACT
